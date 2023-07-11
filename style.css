@@ -1,0 +1,63 @@
+body {
+ background-color: #8d99ae;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.shoppingCart{
+    background-color: lime;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.minus{
+    margin-left: 1em;
+}
+.add,.minus{
+    border-radius: 15px;
+}
+.add1{
+    margin-left: 2.1em;
+}
+.add3{
+    margin-left: 2em;
+}
+.add2{
+    margin-left: 0.8em;
+}
+
+.box{
+    border: 1 px solid gainsboro;  
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+    /* makes website responsive*/
+    /*width: 20em;*/
+    /*display: inline-block;*/
+
+}
+.Medium {
+    background-color: #2b2d42 ;
+    border: 1 px solid gainsboro
+}
+
+.Small{
+    background-color:  #ef233c;
+}
+
+.Large{
+    background-color: #d90429;
+}
+
+.Contact{
+    background-color: #edf2f4;
+}
+
+@media (min-width: 960px) {
+    .pizzas{
+        display : flex;
+    }
+
+}
