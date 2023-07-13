@@ -55,6 +55,10 @@ body {
     background-color: #edf2f4;
 }
 
+span{
+    padding-left: 1em;
+}
+
 @media (min-width: 960px) {
     .pizzas{
         display : flex;
