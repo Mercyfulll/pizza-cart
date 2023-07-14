@@ -59,6 +59,10 @@ span{
     padding-left: 1em;
 }
 
+[x-cloak]{
+    display: none !important;
+}
+
 @media (min-width: 960px) {
     .pizzas{
         display : flex;
