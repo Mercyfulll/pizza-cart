@@ -26,7 +26,9 @@ body {
 .add2{
     margin-left: 0.8em;
 }
-
+.clear{
+    margin-left: 1em;
+}
 .box{
     border: 1 px solid gainsboro;  
     padding: 1em;
